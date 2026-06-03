@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=arumes31&theme=tokyonight&no-bg=true&margin-w=15&margin-h=15" alt="github profile trophy" />
+    <img src="https://github-profile-trophy-fork-two.vercel.app/?username=arumes31&theme=tokyonight&no-bg=true&margin-w=15&margin-h=15" alt="github profile trophy" />
   </a>
 </p>
 
@@ -45,15 +45,23 @@
 
 ---
 
-## 📊 Performance & Statistics
+## 📊 3D Contribution Calendar (Animated)
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" width="100%" />
+</p>
+
+---
+
+## 📈 Performance & Statistics
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
+    <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
+    <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
   </a>
 </p>
 
@@ -65,11 +73,11 @@
 
 ---
 
-## 📈 Recent Contributions & Projects
+## 🚀 Recent Contributions & Projects
 
 - 🛡️ **[blocklist](https://github.com/arumes31/blocklist)**: Hardened Go-based IP Blocklist manager with GeoIP & real-time WebSocket dashboard.
 - 🌐 **[ye3ipsec-wan](https://github.com/arumes31/ye3ipsec-wan)**: Modernized IPSec Site-to-Site & Remote Access gateway based on strongSwan.
-- 🚀 **[servworx](https://github.com/arumes31/servworx)**: Lightweight self-healing Docker container monitor & automatic restarter.
+- ⚙️ **[servworx](https://github.com/arumes31/servworx)**: Lightweight self-healing Docker container monitor & automatic restarter.
 - 🔐 **[rauth](https://github.com/arumes31/rauth)**: Authentication proxy and user identity gateway featuring WebAuthn (Passkeys).
 
 ---
