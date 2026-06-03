@@ -43,9 +43,7 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
 </p>
 
----
-
-## 📊 3D Contribution Calendar (Animated)
+## 📊 Contribtuon Calendar
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" width="100%" />
@@ -57,11 +55,11 @@
 
 <p align="center">
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
+    <img src="https://github-readme-stats.shion.dev/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
+    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
   </a>
 </p>
 
