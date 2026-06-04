@@ -1,13 +1,3 @@
-# PROFILE_README.md
-
-This is a premium, modern, and animated template for your GitHub Profile README. To display this on your GitHub profile:
-1. Create a public repository named exactly after your username (e.g., `arumes31`).
-2. Add a `README.md` file in the root of that repository.
-3. Copy and paste the Markdown content below into it.
-
----
-
-```markdown
 # Hi there, I'm Daniel (arumes31) 👋
 
 <p align="center">
@@ -93,4 +83,3 @@ This is a premium, modern, and animated template for your GitHub Profile README.
 <p align="center">
   <img src="https://komarev.com/normal-badge.png?id=arumes31&color=6366F1&style=flat-square" alt="Profile Views" />
 </p>
-```
