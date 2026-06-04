@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/banner.png" alt="Daniel's Banner" width="100%" />
+</p>
+
 # Hi there, I'm Daniel (arumes31) 👋
 
 <p align="center">
@@ -27,23 +31,32 @@
 
 ## 🛠️ Technology Stack & Skills
 
-<p align="center">
-  <!-- Languages -->
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  
-  <br/>
-  
-  <!-- DevOps & Tools -->
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-</p>
+<div align="center">
+  <table border="0" width="100%">
+    <tr>
+      <td valign="top" width="50%">
+        <strong>💻 Languages & Scripting</strong>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+        <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+      </td>
+      <td valign="top" width="50%">
+        <strong>🚀 DevOps, Systems & Tools</strong>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+        <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
+        <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 📊 Contribtuon Calendar
+---
+
+## 📊 Contribution Calendar
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" width="100%" />
@@ -53,15 +66,32 @@
 
 ## 📈 Performance & Statistics
 
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.shion.dev/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
-  </a>
-</p>
+<div align="center">
+  <table border="0">
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img src="https://github-readme-stats.shion.dev/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <a href="https://github.com/anuraghazra/github-readme-stats">
+          <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" colspan="2" valign="middle">
+        <br/>
+        <a href="https://github.com/ashutoshgusrani/github-readme-streak-stats">
+          <img src="https://github-readme-streak-stats.herokuapp.com/?user=arumes31&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<br/>
 
 <p align="center">
   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
