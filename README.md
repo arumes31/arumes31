@@ -1,4 +1,3 @@
-
 # Hi there, I'm Daniel (arumes31) 👋
 
 <p align="center">
@@ -13,6 +12,17 @@
     <img src="https://img.shields.io/github/stars/arumes31?label=Stars&style=for-the-badge&color=3B82F6&labelColor=1E1E2E" alt="Stars" />
   </a>
 </p>
+
+```bash
+$ whoami
+arumes31 (Daniel)
+
+$ status
+Actively building secure networks, automation pipelines, and self-hosted tools.
+
+$ stack
+Go, Python, PowerShell, Docker, Linux, GitHub Actions
+```
 
 ---
 
@@ -56,7 +66,7 @@
 ## 📊 Contribution Calendar
 
 <p align="center">
-  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Contribution Calendar" width="100%" />
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
 </p>
 
 ---
@@ -100,10 +110,40 @@
 
 ## 🚀 Recent Contributions & Projects
 
-- 🛡️ **[blocklist](https://github.com/arumes31/blocklist)**: Hardened Go-based IP Blocklist manager with GeoIP & real-time WebSocket dashboard.
-- 🌐 **[ye3ipsec-wan](https://github.com/arumes31/ye3ipsec-wan)**: Modernized IPSec Site-to-Site & Remote Access gateway based on strongSwan.
-- ⚙️ **[servworx](https://github.com/arumes31/servworx)**: Lightweight self-healing Docker container monitor & automatic restarter.
-- 🔐 **[rauth](https://github.com/arumes31/rauth)**: Authentication proxy and user identity gateway featuring WebAuthn (Passkeys).
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/arumes31/blocklist">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=blocklist&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="blocklist" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/arumes31/ye3ipsec-wan">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=ye3ipsec-wan&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="ye3ipsec-wan" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/arumes31/servworx">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=servworx&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="servworx" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/arumes31/rauth">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=rauth&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="rauth" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Quote" width="100%" />
+</p>
 
 ---
 
