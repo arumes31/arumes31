@@ -212,7 +212,7 @@ def clean_package_versions(owner, pkg_name, p_type, is_org=False):
     if is_org:
         endpoint = f"/orgs/{owner}/packages/{p_type}/{pkg_name_encoded}/versions?per_page=100"
     else:
-        endpoint = f"/users/{owner}/packages/{p_type}/{pkg_name_encoded}/versions?per_page=100"
+        endpoint = f"/user/packages/{p_type}/{pkg_name_encoded}/versions?per_page=100"
         
     versions = fetch_paginated(endpoint)
     if not versions:
@@ -275,11 +275,11 @@ def clean_packages(username):
     package_types = ['container', 'npm', 'maven', 'rubygems', 'nuget', 'docker']
     
     # 1. User Packages
-    print(f"\nScanning user packages for {username}...")
+    print("\nScanning user packages...")
     for p_type in package_types:
-        packages = fetch_paginated(f"/users/{username}/packages?package_type={p_type}&per_page=100")
+        packages = fetch_paginated(f"/user/packages?package_type={p_type}&per_page=100")
         if packages:
-            print(f"Found {len(packages)} '{p_type}' packages owned by user {username}.")
+            print(f"Found {len(packages)} '{p_type}' packages owned by user.")
             for pkg in packages:
                 pkg_name = pkg["name"]
                 clean_package_versions(username, pkg_name, p_type, is_org=False)
