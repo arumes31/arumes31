@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="./assets/banner.png" alt="Daniel's Banner" width="100%" />
-</p>
 
 # Hi there, I'm Daniel (arumes31) 👋
 
