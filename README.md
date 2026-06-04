@@ -1,7 +1,7 @@
 # Hi there, I'm Daniel (arumes31) 👋
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=24&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=450&lines=System+Engineer+%26+Developer;Docker+%26+Automation+Enthusiast;Building+Secure+Infrastructure;Continuous+Integration+Specialist" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Outfit&size=24&duration=3000&pause=1000&color=6366F1&center=true&vCenter=true&width=600&lines=System+Engineer+%26+Developer;Docker+%26+Automation+Enthusiast;Building+Secure+Infrastructure;Continuous+Integration+Specialist" alt="Typing SVG" />
 </p>
 
 <p align="center">
