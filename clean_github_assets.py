@@ -243,6 +243,13 @@ def clean_package_versions(owner, pkg_name, p_type, is_org=False):
             metadata = ver.get("metadata", {})
             container = metadata.get("container", {})
             tags = container.get("tags", [])
+            
+            # Protect versions with 'latest' or 'main' tags from deletion
+            protected_tags = [t for t in tags if t.lower() in ('latest', 'main')]
+            if protected_tags:
+                print(f"    [protected] Skipping package version {ver_id} ({ver_name}) because of protected tag(s): {', '.join(protected_tags)}")
+                continue
+                
             tag_str = f" [tags: {', '.join(tags)}]" if tags else ""
             
             if is_org:
