@@ -1,0 +1,54 @@
+name: Clean GitHub Assets
+
+on:
+  schedule:
+    # Runs weekly on Sunday at 00:00 UTC
+    - cron: '0 0 * * 0'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry Run Mode (simulate deletions)'
+        type: boolean
+        required: true
+        default: true
+      keep_runs:
+        description: 'Number of workflow runs to keep per workflow'
+        type: string
+        required: true
+        default: '15'
+      keep_versions:
+        description: 'Number of package versions to keep per package'
+        type: string
+        required: true
+        default: '3'
+      keep_days:
+        description: 'Retention window (in days) to keep runs and packages'
+        type: string
+        required: true
+        default: '30'
+
+jobs:
+  cleanup:
+    name: Clean Packages & Actions
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Run cleanup script
+        env:
+          # A PAT with delete:packages, read:packages, repo, and actions scopes must be stored in secrets.CLEANUP_PAT
+          # Falls back to GITHUB_TOKEN if CLEANUP_PAT is not defined (restricted to current repo scope)
+          GITHUB_TOKEN: ${{ secrets.CLEANUP_PAT || secrets.GITHUB_TOKEN }}
+          DRY_RUN: ${{ inputs.dry_run == 'false' && 'false' || 'true' }}
+          KEEP_RUNS: ${{ inputs.keep_runs || '15' }}
+          KEEP_VERSIONS: ${{ inputs.keep_versions || '3' }}
+          KEEP_DAYS: ${{ inputs.keep_days || '30' }}
+          DELAY_MS: '500'
+        run: python clean_github_assets.py
