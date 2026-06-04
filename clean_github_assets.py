@@ -302,19 +302,42 @@ def clean_packages(username):
         print("No organizations found for the user.")
 
 def main():
-    # 1. Authenticate
-    success, user_info, _ = make_request("/user")
-    if not success or not user_info:
-        print("Error: Could not authenticate with GitHub. Check your GITHUB_TOKEN.", file=sys.stderr)
-        sys.exit(1)
-        
-    username = user_info.get("login")
-    print(f"Authenticated successfully as: {username}\n")
-    
+    # 1. Determine username
+    username = os.getenv("GITHUB_REPOSITORY_OWNER")
+    if username:
+        print(f"Running in GitHub environment. Target owner: {username}\n")
+    else:
+        # If not running in GitHub Actions, query /user endpoint to find authenticated user
+        success, user_info, _ = make_request("/user")
+        if success and user_info:
+            username = user_info.get("login")
+            print(f"Authenticated successfully as: {username}\n")
+        else:
+            print("Error: Could not authenticate with GitHub. Check your GITHUB_TOKEN.", file=sys.stderr)
+            sys.exit(1)
+            
     # 2. Clean Workflow Runs
     print("=== Scanning Repositories for Actions Workflow Runs ===")
+    
+    # Try fetching all repositories first
     repos = fetch_paginated("/user/repos?per_page=100")
     
+    # Fallback to the current repository only if listing all repos returns empty (likely GITHUB_TOKEN restriction)
+    if not repos:
+        current_repo = os.getenv("GITHUB_REPOSITORY")
+        if current_repo and "/" in current_repo:
+            owner, repo_name = current_repo.split("/", 1)
+            print(f"[fallback] Could not list all repositories. Falling back to the current repository: {current_repo}")
+            repos = [{
+                "name": repo_name,
+                "owner": {"login": owner},
+                "archived": False,
+                "permissions": {"admin": True, "push": True}
+            }]
+        else:
+            print("Error: Could not retrieve repositories and GITHUB_REPOSITORY is not set.", file=sys.stderr)
+            sys.exit(1)
+            
     # Filter out archived repositories, or repositories where the user has no write access
     valid_repos = []
     for r in repos:
@@ -332,6 +355,7 @@ def main():
         
     # 3. Clean Packages
     clean_packages(username)
+
     
     print("\n==================================================")
     print("           Cleanup Task Completed!               ")
