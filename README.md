@@ -13,16 +13,6 @@
   </a>
 </p>
 
-```bash
-$ whoami
-arumes31 (Daniel)
-
-$ status
-Actively building secure networks, automation pipelines, and self-hosted tools.
-
-$ stack
-Go, Python, PowerShell, Docker, Linux, GitHub Actions
-```
 
 ---
 
