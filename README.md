@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/landscape.gif" alt="Aesthetic Pixel Art Landscape" width="100%" />
+</p>
+
 # Hi there, I'm Daniel (arumes31) 👋
 
 <p align="center">
@@ -12,7 +16,6 @@
     <img src="https://img.shields.io/github/stars/arumes31?label=Stars&style=for-the-badge&color=3B82F6&labelColor=1E1E2E" alt="Stars" />
   </a>
 </p>
-
 
 ---
 
@@ -57,6 +60,16 @@
 
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
+</p>
+
+<br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/arumes31/arumes31/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/arumes31/arumes31/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/arumes31/arumes31/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
 </p>
 
 ---
