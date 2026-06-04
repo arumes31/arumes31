@@ -151,5 +151,5 @@
 ---
 
 <p align="center">
-  <img src="https://komarev.com/normal-badge.png?id=arumes31&color=6366F1&style=flat-square" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=arumes31&color=6366F1&style=flat-square&label=Profile+Views" alt="Profile Views" />
 </p>
