@@ -30,10 +30,25 @@ print(f"Delay between API:  {DELAY_MS}ms")
 print("==================================================\n")
 
 BASE_URL = "https://api.github.com"
+REQUEST_TIMEOUT_SECONDS = 30
+
+
+def api_url(value):
+    """Return a GitHub API URL without allowing credential-forwarding hosts."""
+    if not value.startswith("http"):
+        value = f"{BASE_URL}{value}"
+
+    parsed = urllib.parse.urlsplit(value)
+    if parsed.scheme != "https" or parsed.hostname != "api.github.com":
+        raise ValueError("refusing to send credentials outside api.github.com")
+    return value
 
 def make_request(url, method="GET", data=None):
-    if not url.startswith("http"):
-        url = f"{BASE_URL}{url}"
+    try:
+        url = api_url(url)
+    except ValueError as error:
+        print(f"[warning] Invalid API URL: {error}")
+        return False, None, None
         
     req = urllib.request.Request(url, method=method)
     req.add_header("Authorization", f"Bearer {TOKEN}")
@@ -51,7 +66,7 @@ def make_request(url, method="GET", data=None):
             # Rate limit compliance: sleep between API requests to avoid abuse detection
             time.sleep(DELAY_MS / 1000.0)
             
-            with urllib.request.urlopen(req) as response:
+            with urllib.request.urlopen(req, timeout=REQUEST_TIMEOUT_SECONDS) as response:
                 headers = response.info()
                 
                 # Proactively inspect and sleep if rate limits are nearing depletion

@@ -19,7 +19,7 @@ jobs:
     
     steps:
       - name: Generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
@@ -27,7 +27,7 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
             
       - name: Push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:
           target_branch: output
           build_dir: dist
