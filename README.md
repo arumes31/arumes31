@@ -23,7 +23,7 @@
 
 <p align="center">
   <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy-fork-two.vercel.app/?username=arumes31&theme=tokyonight&no-bg=true&margin-w=15&margin-h=15" alt="github profile trophy" />
+    <img src="https://github-profile-repo.vercel.app/?username=arumes31&theme=tokyonight&no-bg=true&margin-w=15&margin-h=15" alt="github profile trophy" />
   </a>
 </p>
 
@@ -56,13 +56,7 @@
 
 ---
 
-## 📊 Contribution Calendar
-
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
-</p>
-
-<br/>
+## 📊 Contribution Activity
 
 <p align="center">
   <picture>
@@ -71,6 +65,14 @@
     <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/arumes31/arumes31/output/github-contribution-grid-snake.svg" width="100%" />
   </picture>
 </p>
+
+<details align="center">
+  <summary><b>🗺️ Expand 3D Isometric Contribution Graph</b></summary>
+  <br/>
+  <p align="center">
+    <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Calendar" width="100%" />
+  </p>
+</details>
 
 ---
 
@@ -81,12 +83,12 @@
     <tr>
       <td align="center" valign="middle">
         <a href="https://github.com/anuraghazra/github-readme-stats">
-          <img src="https://github-readme-stats.shion.dev/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
+          <img src="https://github-readme-stats.vercel.app/api?username=arumes31&show_icons=true&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Daniel's GitHub Stats" />
         </a>
       </td>
       <td align="center" valign="middle">
         <a href="https://github.com/anuraghazra/github-readme-stats">
-          <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arumes31&layout=compact&theme=tokyonight&border_radius=10&hide_border=true&bg_color=0D1117" alt="Top Langs" />
         </a>
       </td>
     </tr>
@@ -94,7 +96,7 @@
       <td align="center" colspan="2" valign="middle">
         <br/>
         <a href="https://github.com/ashutoshgusrani/github-readme-streak-stats">
-          <img src="https://github-readme-streak-stats.herokuapp.com/?user=arumes31&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
+          <img src="https://streak-stats.demolab.com/?user=arumes31&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak Stats" />
         </a>
       </td>
     </tr>
@@ -105,9 +107,42 @@
 
 <p align="center">
   <a href="https://github.com/Ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=arumes31&theme=tokyonight&bg_color=0D1117&hide_border=true" width="100%" alt="Activity Graph" />
+    <img src="https://activity-graph.vercel.app/graph?username=arumes31&theme=tokyonight&bg_color=0D1117&hide_border=true" width="100%" alt="Activity Graph" />
   </a>
 </p>
+
+---
+
+## 🚀 Featured Projects
+
+<div align="center">
+  <table border="0">
+    <tr>
+      <td>
+        <a href="https://github.com/arumes31/rauth">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=rauth&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="rauth" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/arumes31/redrx">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=redrx&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="redrx" />
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://github.com/arumes31/vulfixx">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=vulfixx&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="vulfixx" />
+        </a>
+      </td>
+      <td>
+        <a href="https://github.com/arumes31/schnorarr">
+          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=schnorarr&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="schnorarr" />
+        </a>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ---
 

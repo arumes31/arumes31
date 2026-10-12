@@ -1,0 +1,20 @@
+# Operating System files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor & IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# AI & Assistant tools
+.claudeignore
+.kilo/
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
