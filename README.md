@@ -111,39 +111,6 @@
 
 ---
 
-## 🚀 Recent Contributions & Projects
-
-<div align="center">
-  <table border="0">
-    <tr>
-      <td>
-        <a href="https://github.com/arumes31/blocklist">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=blocklist&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="blocklist" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/arumes31/ye3ipsec-wan">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=ye3ipsec-wan&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="ye3ipsec-wan" />
-        </a>
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <a href="https://github.com/arumes31/servworx">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=servworx&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="servworx" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/arumes31/rauth">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=arumes31&repo=rauth&theme=tokyonight&bg_color=0D1117&hide_border=true" alt="rauth" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 <p align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Daily Quote" width="100%" />
 </p>
