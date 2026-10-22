@@ -10,7 +10,7 @@ on:
       - v2_test
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: generate-snake-${{ github.workflow }}-${{ github.ref }}
@@ -20,7 +20,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-    
+    permissions:
+      contents: read
+
     steps:
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3
@@ -29,7 +31,29 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            
+
+      - name: Upload generated snake
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: snake
+          path: dist
+          retention-days: 1
+
+  deploy:
+    needs: generate
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    # Only this job gets a write-scoped token; the third-party generator above runs read-only.
+    permissions:
+      contents: write
+
+    steps:
+      - name: Download generated snake
+        uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
+        with:
+          name: snake
+          path: dist
+
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@c0d7ff0487ee0415efb7f32dab10ea880330b1dd # v3.1.0
         with:
