@@ -1,13 +1,12 @@
 name: Generate Snake
 
+# The snake depends only on the contribution graph, not on this repository's
+# content, so pushes do not trigger it. Every other day is enough for a
+# cosmetic profile image.
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 */2 * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
-      - v2_test
 
 permissions:
   contents: read

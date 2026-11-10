@@ -3,6 +3,10 @@ name: Dependency Review
 on:
   pull_request:
     branches: [main]
+    # Pinned actions are the only dependencies in this repository.
+    paths:
+      - '.github/workflows/**'
+      - '.github/actions/**'
 
 permissions:
   contents: read
